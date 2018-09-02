@@ -1,0 +1,10 @@
+<Fuse.Controls.MyDatePickerBase ux:Class="Fuse.Controls.MyDatePicker" ux:Name="self">
+	<Panel ux:Template="GraphicsAppearance" Margin="4" Background="#eee" Padding="30">
+		<Text Value="GraphicsAppearance for DatePicker not implemented!" Alignment="Center" TextWrapping="Wrap" />
+		<Rectangle Layer="Background">
+			<Stroke Color="#000" />
+		</Rectangle>
+	</Panel>
+	<Fuse.Controls.Native.iOS.MyDatePickerView ux:Condition="iOS" ux:Template="iOSAppearance" Host="self" />
+	<Fuse.Controls.Native.Android.MyDatePickerView ux:Condition="Android" ux:Template="AndroidAppearance" Host="self" />
+</Fuse.Controls.MyDatePickerBase>

@@ -1,0 +1,17 @@
+{
+  "Packages": [
+    "Fuse.Common",
+    "Fuse.Controls",
+    "Fuse.Controls.Native",
+    "Fuse.Controls.Panels",
+    "Fuse.Controls.Primitives",
+    "Fuse.Drawing",
+    "Fuse.Elements",
+    "Fuse.Nodes",
+    "Fuse.Scripting",
+    "Fuse.Scripting.JavaScript",
+  ],
+  "Includes": [
+    "*"
+  ]
+}
